@@ -1,0 +1,181 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "33a76d335494bc0c4a5817cff97b6c88",
+    "packages": [
+        {
+            "name": "chillerlan/php-authenticator",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chillerlan/php-authenticator.git",
+                "reference": "98841fdc3d2915b292f676e4b5e9fa89aae3511b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chillerlan/php-authenticator/zipball/98841fdc3d2915b292f676e4b5e9fa89aae3511b",
+                "reference": "98841fdc3d2915b292f676e4b5e9fa89aae3511b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.5.*"
+            },
+            "suggest": {
+                "chillerlan/php-qrcode": ">=2.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "chillerlan\\Authenticator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Smiley",
+                    "email": "smiley@chillerlan.net",
+                    "homepage": "https://github.com/codemasher"
+                }
+            ],
+            "description": "A generator for counter- and time based authentication codes. PHP 7+",
+            "homepage": "https://github.com/chillerlan/php-authenticator",
+            "keywords": [
+                "2fa",
+                "authenticator",
+                "hotp",
+                "rfc4226",
+                "rfc6238",
+                "totp"
+            ],
+            "support": {
+                "issues": "https://github.com/chillerlan/php-authenticator/issues",
+                "source": "https://github.com/chillerlan/php-authenticator"
+            },
+            "time": "2018-01-23T01:30:02+00:00"
+        },
+        {
+            "name": "chillerlan/php-qrcode",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chillerlan/php-qrcode.git",
+                "reference": "3a61a75e2f72be45d802de65e3c37ab0be6f4ff1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chillerlan/php-qrcode/zipball/3a61a75e2f72be45d802de65e3c37ab0be6f4ff1",
+                "reference": "3a61a75e2f72be45d802de65e3c37ab0be6f4ff1",
+                "shasum": ""
+            },
+            "require": {
+                "chillerlan/php-authenticator": ">=2.0.0",
+                "chillerlan/php-traits": "1.1.*",
+                "php": ">=7.0.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "chillerlan\\QRCode\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Smiley",
+                    "email": "smiley@chillerlan.net"
+                },
+                {
+                    "name": "Kazuhiko Arase",
+                    "homepage": "https://github.com/kazuhikoarase"
+                }
+            ],
+            "description": "A QR code generator. PHP 7+",
+            "homepage": "https://github.com/codemasher/php-qrcode",
+            "keywords": [
+                "qr code"
+            ],
+            "support": {
+                "issues": "https://github.com/chillerlan/php-qrcode/issues",
+                "source": "https://github.com/chillerlan/php-qrcode/tree/2.0.0"
+            },
+            "time": "2017-12-24T07:30:20+00:00"
+        },
+        {
+            "name": "chillerlan/php-traits",
+            "version": "1.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chillerlan/php-traits.git",
+                "reference": "264759946b6aaeb427346b749fc9639b790b8e7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chillerlan/php-traits/zipball/264759946b6aaeb427346b749fc9639b790b8e7f",
+                "reference": "264759946b6aaeb427346b749fc9639b790b8e7f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "chillerlan\\Traits\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Smiley",
+                    "email": "smiley@chillerlan.net",
+                    "homepage": "https://github.com/codemasher"
+                }
+            ],
+            "description": "Some useful traits for PHP 7+",
+            "homepage": "https://github.com/chillerlan/php-traits",
+            "keywords": [
+                "PHP7",
+                "container",
+                "dotenv",
+                "helper",
+                "trait"
+            ],
+            "support": {
+                "issues": "https://github.com/chillerlan/php-traits/issues",
+                "source": "https://github.com/chillerlan/php-traits"
+            },
+            "abandoned": true,
+            "time": "2018-06-22T00:30:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
