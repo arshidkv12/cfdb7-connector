@@ -1,4 +1,4 @@
-##Privacy Policy##
+**Privacy Policy**
 
 phpBolt built the CFDB7 app as a Free app. This SERVICE is provided by phpBolt at no cost and is intended for use as is.
 
