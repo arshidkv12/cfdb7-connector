@@ -17,7 +17,7 @@ CFDB7_Entry_API::get_instance();
 add_action( 'admin_menu', 'c7pcsv_admin_menu', 99 );
 
 function c7pcsv_admin_menu(){
-    add_submenu_page('cfdb7-list.php', 'API', 'API', 'cfdb7_access',
+    add_submenu_page('cfdb7-list.php', 'App Connector', 'App Connector', 'cfdb7_access',
     'cfdb7-api',  'cfdb7_api_sub_menu' );
 }
 

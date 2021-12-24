@@ -30,6 +30,10 @@ class CFDB7_Entry_API{
             'methods'  => 'GET',
             'callback' => array( $this, 'change_status' )
         ));
+        register_rest_route( 'cfdb7/v1', '/get-total-count/(?P<key>\w+)',array(
+            'methods'  => 'GET',
+            'callback' => array( $this, 'get_total_count' )
+        ));
     }
 
     /**
@@ -171,7 +175,20 @@ class CFDB7_Entry_API{
 
     }
 
+    public function get_total_count(){
+        global $wpdb;
 
+        $cfdb          = apply_filters( 'cfdb7_database', $wpdb );
+        $table_name    = $cfdb->prefix.'db7_forms';
+        $count         = $cfdb->get_var( "SELECT COUNT(*) FROM $table_name");
+        return [
+            'count' => $count
+        ];
+    }
+
+    /**
+     * Method POST
+     */
     public function change_status( $data ){
         $id     = (int) $data['id'];
         $status = $data['status'] == 'read' ? 'read' : 'unread';
