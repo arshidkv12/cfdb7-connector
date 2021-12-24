@@ -14,9 +14,9 @@ use chillerlan\QRCode\QROptions;
 require plugin_dir_path(__FILE__).'/class-cfdb7-entry-api.php';
 CFDB7_Entry_API::get_instance();
 
-add_action( 'admin_menu', 'c7pcsv_admin_menu', 99 );
+add_action( 'admin_menu', 'cfdb7_app_connector_admin_menu', 99 );
 
-function c7pcsv_admin_menu(){
+function cfdb7_app_connector_admin_menu(){
     add_submenu_page('cfdb7-list.php', 'App Connector', 'App Connector', 'cfdb7_access',
     'cfdb7-api',  'cfdb7_api_sub_menu' );
 }
