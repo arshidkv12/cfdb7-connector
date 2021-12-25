@@ -9,4 +9,5 @@ Install Android/ios APP.
 
 Settings > Add web > Scan QR code.
 
-Android App(
+Android
+iOS
