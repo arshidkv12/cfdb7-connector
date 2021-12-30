@@ -11,7 +11,7 @@ Settings > Add web > Scan QR code.
 
 
 <p float="left">
-  <img src=".github/1.webp" width="250">
+  <img src=".github/1a.webp" width="250">
   <img src=".github/2.webp"  width="250">
   <img src=".github/3.webp" width="250">
 </p>
