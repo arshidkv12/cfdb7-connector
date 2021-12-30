@@ -1,5 +1,8 @@
 ### Access CFDB7 Data From APP ###
 
+Install CFDB7 database and Connector Plugin.
+Then go to Wrodpress > wp-admin > Contact Forms > Connector.
+
 #### Instll CFDB7 Connector Plugin ####
 Download CFDB7 database and connector plugin.
 1. [Download CFDB7 Database Plugin](https://downloads.wordpress.org/plugin/contact-form-cfdb7.zip)
