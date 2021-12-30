@@ -184,7 +184,7 @@ class CFDB7_Entry_API{
         $unread_count  = $cfdb->get_var("SELECT COUNT(*) FROM $table_name 
                             WHERE form_value LIKE '$status'
                         ");
-        $count         = $cfdb->get_var( "SELECT COUNT(*) FROM $table_name");
+        // $count         = $cfdb->get_var( "SELECT COUNT(*) FROM $table_name");
         return [
             'count' => $unread_count
         ];
