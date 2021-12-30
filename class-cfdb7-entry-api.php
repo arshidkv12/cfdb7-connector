@@ -180,9 +180,13 @@ class CFDB7_Entry_API{
 
         $cfdb          = apply_filters( 'cfdb7_database', $wpdb );
         $table_name    = $cfdb->prefix.'db7_forms';
+        $status        = '%s:12:"cfdb7_status";s:6:"unread";%';
+        $unread_count  = $cfdb->get_var("SELECT COUNT(*) FROM $table_name 
+                            WHERE form_value LIKE '$status'
+                        ");
         $count         = $cfdb->get_var( "SELECT COUNT(*) FROM $table_name");
         return [
-            'count' => $count
+            'count' => $unread_count
         ];
     }
 
