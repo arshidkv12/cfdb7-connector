@@ -1,7 +1,9 @@
 ### Access CFDB7 Data From APP ###
 
-Install CFDB7 database and Connector Plugin.
+Install **CFDB7 database** and **Connector** Plugin.
+
 Then go to Wrodpress > wp-admin > Contact Forms > Connector.
+
 
 ### Instll CFDB7 Connector Plugin ###
 Download CFDB7 database and connector plugin.
@@ -10,6 +12,8 @@ Download CFDB7 database and connector plugin.
 
 
 Settings > Add web > Scan QR code (From APP).
+
+
 
 
 <p float="left">
