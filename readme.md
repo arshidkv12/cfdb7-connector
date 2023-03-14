@@ -2,7 +2,7 @@
 
 Install **CFDB7 database** and **Connector** Plugin.
 
-Then go to Wrodpress > wp-admin > Contact Forms > Connector.
+Then go to WordPress > wp-admin > Contact Forms > Connector.
 
 
 ### Instll CFDB7 Connector Plugin ###
